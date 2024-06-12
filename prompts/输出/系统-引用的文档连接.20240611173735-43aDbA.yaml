@@ -20,8 +20,8 @@ outputVariables:
     name: $reference.links
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: vgsgsvnhud0cq37v
-      componentName: Opening Questions View
+      componentId: baqmaoccdntqwayc
+      componentName: Referenced Links View
     description: 找几篇相关的论文
   - id: QWxFZxY-dPvzgeoZu884C
     name: $appearance.page

@@ -12,8 +12,35 @@ prompts:
 outputVariables:
   - id: yw61lJLCESwypSZdyOBZW
     name: $text
-  - id: DXEyUPYQ8X5enGOI6HbK6
-    name: ""
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+  - id: LcZ1x4tHmUfe4dEv68Fam
+    name: $suggested.questions
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: 6u8m11ss7fvu8t7i
+      componentName: "Suggested Questions View "
+      title: 这里是被推荐的问题
+  - id: jtSI7OL6-F-O5OkeXVZVX
+    name: $appearance.input
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+  - id: PrrW8gCPwSY6HZ7vtULwV
+    name: $appearance.output
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: q0ckknkxph4hfwas
+      componentName: Simple Output
+  - id: 1tRHE1O2TDDJww7tlLlf3
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat Layout
 id: 20240611173707-rj4N2l
 createdAt: 2024-06-11T09:37:07.609Z
 updatedAt: 2024-06-11T09:37:07.609Z
