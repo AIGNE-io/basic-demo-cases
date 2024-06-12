@@ -12,15 +12,18 @@ prompts:
 outputVariables:
   - id: E_7ZlZoOVy63RagbrUWz-
     name: $text
-  - id: rNpmCj1KQtfsUOv1ZwAGZ
-    name: $share
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+  - id: mxUdfYVQJfnZEct2K0cWn
+    name: $openingMessage
     initialValue:
-      items:
-        - to: twitter
-        - to: copy
-        - to: saveAs
-      shareAttachUrl: true
-      shareAttachInputs: true
+      message: 你好 我是人工智能 siri,你有啥要问我的
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
 id: 20240611173606-2xSzsL
 createdAt: 2024-06-11T09:36:06.540Z
 updatedAt: 2024-06-11T09:36:06.540Z
