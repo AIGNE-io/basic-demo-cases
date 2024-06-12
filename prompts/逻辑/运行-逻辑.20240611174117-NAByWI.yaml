@@ -1,0 +1,20 @@
+type: prompt
+parameters:
+  - id: C3JTjQaS2X538EbLyx0mC
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: 5LFEm_oIXuuGxzI4iAQxu
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: dufbwt2eiFkyXK8Q_LDzn
+    name: $text
+id: 20240611174117-NAByWI
+createdAt: 2024-06-11T09:41:17.745Z
+updatedAt: 2024-06-11T09:41:17.745Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 运行-逻辑

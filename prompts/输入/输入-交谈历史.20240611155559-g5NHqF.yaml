@@ -1,0 +1,29 @@
+type: prompt
+parameters:
+  - id: OOdB6pYeVXFe7fwX2gifE
+    type: string
+    key: question
+  - id: 9UTUgmTpuSCkAQjqJ8yoy
+    key: ""
+  - id: VYJpt4ZE6bz1rFBjcgWS9
+    key: ""
+prompts:
+  - type: message
+    data:
+      id: 2LwPhBb_-6bAhvS9C9lBc
+      role: user
+      content: "{{ question }}"
+  - type: message
+    data:
+      id: 20240611155907-B4EQ2X
+      role: system
+      content: 询问用户心情如何,使用一个成语描述用户心情
+outputVariables:
+  - id: xa8-D-bBYzEWVBes51GkF
+    name: $text
+id: 20240611155559-g5NHqF
+createdAt: 2024-06-11T07:55:59.312Z
+updatedAt: 2024-06-11T07:55:59.312Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 输入-交谈历史

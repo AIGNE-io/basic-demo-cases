@@ -1,0 +1,29 @@
+type: prompt
+parameters:
+  - id: mWuyLlz24CAwh8coNv3mm
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: yAQak5x9JizrjkKUdZa7i
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: E_7ZlZoOVy63RagbrUWz-
+    name: $text
+  - id: rNpmCj1KQtfsUOv1ZwAGZ
+    name: $share
+    initialValue:
+      items:
+        - to: twitter
+        - to: copy
+        - to: saveAs
+      shareAttachUrl: true
+      shareAttachInputs: true
+id: 20240611173606-2xSzsL
+createdAt: 2024-06-11T09:36:06.540Z
+updatedAt: 2024-06-11T09:36:06.540Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 外观-开场白

@@ -1,0 +1,20 @@
+type: prompt
+parameters:
+  - id: JUICzrecUz7i_bl5usDPW
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: bk3YwdzjwTr2xjJm4F2Ts
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: r4_ovbj-dILSGO-tzcvht
+    name: $text
+id: 20240611173526-Nd9IFf
+createdAt: 2024-06-11T09:35:26.679Z
+updatedAt: 2024-06-11T09:35:26.679Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 外观-开场问题

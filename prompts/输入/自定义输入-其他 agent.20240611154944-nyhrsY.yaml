@@ -1,0 +1,41 @@
+type: prompt
+parameters:
+  - id: LqmDl1GxM4uW6ar71HoYi
+    key: chatHistory
+    type: source
+    source:
+      variableFrom: history
+      chatHistory:
+        limit: 50
+        keyword: ""
+  - id: Z68PafWl9fNL88nOIT20X
+    key: word
+    type: source
+    source:
+      variableFrom: tool
+      agent:
+        projectId: "455344917049245696"
+        id: 20240611152956-FG8yIG
+        from: assistant
+prompts:
+  - type: message
+    data:
+      id: AYd2TNRjRUC4mLWPPUCx_
+      role: user
+      content: 请解释下{{word}}的意思
+outputVariables:
+  - id: 68yNGyF0ZbPWo4mvspnWW
+    name: $text
+  - id: mx7j7t7TajfRQ0CKm9S8W
+    name: $appearance.output
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: q0ckknkxph4hfwas
+      componentName: Simple Output
+id: 20240611154944-nyhrsY
+createdAt: 2024-06-11T07:49:44.154Z
+updatedAt: 2024-06-11T07:49:44.154Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 自定义输入-其他 agent
+model: gpt-3.5-turbo

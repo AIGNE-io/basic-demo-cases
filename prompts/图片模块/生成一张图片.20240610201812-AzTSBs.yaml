@@ -1,0 +1,44 @@
+type: function
+model: gpt-3.5-turbo
+quality: hd
+style: natural
+parameters:
+  - id: MRMLSlehjxEFubfe7nu1w
+    type: string
+    key: question
+prompts:
+  jKdcxRFzg4BNIYq5c32Nj:
+    index: 0
+    data:
+      type: message
+      data:
+        id: jKdcxRFzg4BNIYq5c32Nj
+        role: user
+        content: "{{ question }}"
+outputVariables:
+  - id: a5ji5SfNCkQD8JJXTa0Lp
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat Layout
+  - id: PKj3fSScPSAz00tUkga4r
+    name: $profile
+  - id: GvR50tvOBP5gK1QVN3uHh
+    name: $appearance.output
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: q0ckknkxph4hfwas
+      componentName: Simple Output
+id: 20240610201812-AzTSBs
+createdAt: 2024-06-10T12:18:12.745Z
+updatedAt: 2024-06-10T12:18:12.745Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 生成一张图片
+description: 使用最基本的图片生成功能(1)
+code: |
+  return {
+    text: 'hello, AIGNE!'
+  }
+prompt: "{{ question }}"

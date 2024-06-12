@@ -1,0 +1,22 @@
+type: prompt
+parameters:
+  - id: Ksb33QXQplJW8w0iDCviF
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: 3lIa61eiH730rxWj0h0co
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: 5OgsSslvBa79JUKNVeDQl
+    name: $text
+  - id: 5P8OFDcAKmos4Ve0zm2B9
+    name: $children
+id: 20240611173735-43aDbA
+createdAt: 2024-06-11T09:37:35.757Z
+updatedAt: 2024-06-11T09:37:35.757Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 系统-引用的文档连接

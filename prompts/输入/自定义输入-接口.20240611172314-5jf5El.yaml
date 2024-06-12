@@ -1,0 +1,42 @@
+type: prompt
+parameters:
+  - id: gFbmKVS9B69rzrbm6urm5
+    key: api
+    type: source
+    source:
+      variableFrom: blockletAPI
+      api:
+        id: AI-Studio:/api/messages:get
+        parameters:
+          limit: "{{limit}}"
+          keyword: "{{keyword}}"
+  - id: nbu0ID7JM0uuFrMmjPcgG
+    key: limit
+    from: blockletAPIParameter
+  - id: VIcXhji7eRhkQvOKDTLdI
+    key: keyword
+    from: blockletAPIParameter
+  - id: H8ql2g7o90fvJtW09SHfW
+    key: key
+    type: source
+    source:
+      variableFrom: secret
+    label: 姓名秘钥
+  - id: xVDCheh5IvJ5DYcDfqiQX
+    key: ""
+prompts:
+  - type: message
+    data:
+      id: tS_UByXtany_rY53ujsjZ
+      role: system
+      content: ""
+outputVariables:
+  - id: 1OMAcJqANjnVZVt5g29hL
+    name: $text
+id: 20240611172314-5jf5El
+createdAt: 2024-06-11T09:23:14.078Z
+updatedAt: 2024-06-11T09:23:14.078Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 自定义输入-接口
+description: 自定义输入-接口

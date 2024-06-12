@@ -1,0 +1,30 @@
+type: prompt
+parameters:
+  - id: R5iyJybpxHSHT7ZMhBJRR
+    key: memory
+    type: source
+    source:
+      variableFrom: datastore
+      variable:
+        key: 角色背景
+        scope: global
+  - id: DHMQoVftKG8SdLKvRyd47
+    key: ""
+    type: source
+    source:
+      variableFrom: knowledge
+prompts:
+  - type: message
+    data:
+      id: xi5UVOEXMa2Qt9O3xV8bu
+      role: user
+      content: 根据{{memory}}, 说出他的天赋
+outputVariables:
+  - id: JdB_miSWes3EDo_c3a3lH
+    name: $text
+id: 20240611160218-hbWGnC
+createdAt: 2024-06-11T08:02:18.483Z
+updatedAt: 2024-06-11T08:02:18.483Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 自定义输入-记忆

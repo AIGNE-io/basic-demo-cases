@@ -1,0 +1,20 @@
+id: 20240611152944-0AqEWr
+type: image
+createdAt: 2024-06-11T07:29:44.877Z
+updatedAt: 2024-06-11T07:29:44.877Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+prompts:
+  sfOvpbhBpXd3Ef02MvrCh:
+    index: 0
+    data:
+      type: message
+      data:
+        id: sfOvpbhBpXd3Ef02MvrCh
+        role: user
+outputVariables:
+  - id: q1niuSWrsaQchxDLIh6uS
+    name: $images
+name: 图片
+model: dall-e-2
+prompt: 一个男孩的图片
