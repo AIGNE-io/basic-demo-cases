@@ -24,6 +24,24 @@ outputVariables:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
+  - id: aIelJJIUu6cyu4GuJIXra
+    name: $appearance.input
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+  - id: QIf09-MigZH9KGQ9mmC5v
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat Layout
+  - id: LRw7yhaZUu35VSP9rSZHc
+    name: $appearance.output
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: q0ckknkxph4hfwas
+      componentName: Simple Output
 id: 20240611173606-2xSzsL
 createdAt: 2024-06-11T09:36:06.540Z
 updatedAt: 2024-06-11T09:36:06.540Z
