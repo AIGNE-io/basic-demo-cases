@@ -10,6 +10,11 @@ parameters:
         parameters:
           limit: "10"
           keyword: " 杨树"
+  - id: 7MgMhqVRw5OsxjP1MwA2u
+    key: ""
+    type: source
+    source:
+      variableFrom: secret
 prompts:
   - type: message
     data:
