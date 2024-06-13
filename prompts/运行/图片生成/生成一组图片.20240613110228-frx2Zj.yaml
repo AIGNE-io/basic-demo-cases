@@ -1,0 +1,48 @@
+type: image
+parameters:
+  - id: F2V--ZPGH5uyMH3sZ_3DM
+    type: string
+    key: question
+prompts:
+  BswMs5Xt7v06l7Ga8z2lG:
+    index: 0
+    data:
+      type: message
+      data:
+        id: BswMs5Xt7v06l7Ga8z2lG
+        role: user
+        content: "{{ question }}"
+outputVariables:
+  - id: PlANh-WZNy75ASnno794X
+    name: $images
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: txirtdgx8h2bmo7s
+      componentName: Images View
+  - id: HWv3w1H0MHj30RNC2LEa1
+    name: $appearance.input
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+  - id: wyQAWXSdHKFLpmPARD0lz
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: l65uy2o8up7v2x55
+      componentName: Photo Gallery Layout
+  - id: i59y-c3PGehEl9hkzImxW
+    name: $appearance.output
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: m5xs45nc42304zyc
+      componentName: Photo Gallery Output
+id: 20240613110228-frx2Zj
+createdAt: 2024-06-13T03:02:28.114Z
+updatedAt: 2024-06-13T03:02:28.114Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 生成一组图片
+model: dall-e-2
+prompt: "{{ question }}"
+n: 2

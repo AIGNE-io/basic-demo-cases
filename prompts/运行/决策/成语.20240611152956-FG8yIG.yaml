@@ -12,6 +12,10 @@ name: 成语
 outputVariables:
   - id: 470SNccLSuHze8dd4arQC
     name: $text
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
 model: gpt-3.5-turbo
 prompts:
   - type: message

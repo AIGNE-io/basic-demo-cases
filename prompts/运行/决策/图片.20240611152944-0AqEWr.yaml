@@ -15,6 +15,10 @@ prompts:
 outputVariables:
   - id: q1niuSWrsaQchxDLIh6uS
     name: $images
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: txirtdgx8h2bmo7s
+      componentName: Images View
 name: 图片
 model: dall-e-2
 prompt: 一个男孩的图片

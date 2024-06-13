@@ -1,7 +1,5 @@
-type: function
-model: gpt-3.5-turbo
-quality: hd
-style: natural
+type: image
+model: dall-e-2
 parameters:
   - id: MRMLSlehjxEFubfe7nu1w
     type: string
@@ -16,20 +14,30 @@ prompts:
         role: user
         content: "{{ question }}"
 outputVariables:
-  - id: a5ji5SfNCkQD8JJXTa0Lp
-    name: $appearance.page
+  - id: D_PkHFnXrmom3LVBQZHeR
+    name: $images
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: wvqnnr1wl624vho5
-      componentName: Simple Chat Layout
-  - id: PKj3fSScPSAz00tUkga4r
-    name: $profile
-  - id: GvR50tvOBP5gK1QVN3uHh
+      componentId: txirtdgx8h2bmo7s
+      componentName: Images View
+  - id: B60A63QyOz7xklH-hHKXh
+    name: $appearance.input
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+  - id: 3UT8zE5NTZs7wPAR5KCMe
     name: $appearance.output
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
       componentId: q0ckknkxph4hfwas
       componentName: Simple Output
+  - id: rodU61j4cFrx3xvMj2XPX
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat Layout
 id: 20240610201812-AzTSBs
 createdAt: 2024-06-10T12:18:12.745Z
 updatedAt: 2024-06-10T12:18:12.745Z
@@ -42,3 +50,4 @@ code: |
     text: 'hello, AIGNE!'
   }
 prompt: "{{ question }}"
+n: 1
