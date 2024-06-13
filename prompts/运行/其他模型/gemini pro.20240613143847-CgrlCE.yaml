@@ -1,0 +1,26 @@
+id: 20240613143847-CgrlCE
+type: prompt
+createdAt: 2024-06-13T06:38:47.266Z
+updatedAt: 2024-06-13T06:38:47.266Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+prompts:
+  - type: message
+    data:
+      id: QiWnEU-0C1ZK2j_Qc6o6Q
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: _2vJBghPIYKxmXS988u1W
+    name: $text
+name: gemini pro
+model: gemini-pro
+parameters:
+  - id: UE6eTJhZnditsJa0TGJXk
+    key: question
+  - id: fmAWsX58F3OLyXO7DVHOD
+    key: apiKey
+    type: source
+    source:
+      variableFrom: secret
+    label: hahahahah

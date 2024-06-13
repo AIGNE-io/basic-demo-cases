@@ -1,10 +1,11 @@
 type: prompt
 parameters:
-  - id: LIKd7IWW1By6PD9Q3cEGk
-    type: string
-    key: question
-  - id: 3Z7QsyuRTVM6EtN8L4gIJ
-    key: ""
+  - id: wloaOUbdOTB3a4lxlqyt8
+    key: key
+    type: source
+    source:
+      variableFrom: secret
+    label: key
 prompts:
   - type: message
     data:

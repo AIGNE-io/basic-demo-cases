@@ -1,7 +1,7 @@
 type: prompt
 parameters:
-  - id: 7NFzTE23S9zezw3QyuURp
-    key: history
+  - id: TsSxz8wif174klQMKnDm4
+    key: ""
     type: source
     source:
       variableFrom: blockletAPI
@@ -9,12 +9,7 @@ parameters:
         id: AI-Studio:/api/messages:get
         parameters:
           limit: "10"
-          keyword: " 杨树"
-  - id: 7MgMhqVRw5OsxjP1MwA2u
-    key: ""
-    type: source
-    source:
-      variableFrom: secret
+          keyword: 星座
 prompts:
   - type: message
     data:
@@ -31,3 +26,4 @@ createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 name: 自定义输入-API
 description: 自定义输入-接口
+model: gpt-4o

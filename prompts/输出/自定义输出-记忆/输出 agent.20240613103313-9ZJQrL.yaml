@@ -1,7 +1,5 @@
 type: prompt
-parameters:
-  - id: pkLkJT40jIe5U2Og2AYai
-    key: question
+parameters: []
 prompts:
   - type: message
     data:
@@ -16,30 +14,6 @@ prompts:
       role: user
       content: "{{ question }}"
 outputVariables:
-  - id: XPe4mBApagStsnpIR-o0f
-    name: $text
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: a4oldpoxv7bikvpj
-      componentName: Markdown View
-  - id: eGsO9srbXCouXRxaBriaE
-    name: $appearance.page
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: wvqnnr1wl624vho5
-      componentName: Simple Chat Layout
-  - id: Y7Ur7TlDrkqCpW2mr8p1W
-    name: $appearance.input
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: 1wwtemqcdio6nqf0
-      componentName: Auto Form
-  - id: 0kEOn-MPImlsLp4XZ8Pfa
-    name: $appearance.output
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: q0ckknkxph4hfwas
-      componentName: Simple Output
   - id: 0rkHYkaNld8ofogfdAz2n
     name: output
     variable:
@@ -50,6 +24,7 @@ outputVariables:
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
     description: 使用用户输入的语言
+    required: true
 id: 20240613103313-9ZJQrL
 createdAt: 2024-06-13T02:33:13.723Z
 updatedAt: 2024-06-13T02:33:13.723Z
