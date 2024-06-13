@@ -1,0 +1,33 @@
+type: function
+parameters:
+  - id: CzIsamrafveQXn9LQjkSQ
+    key: memory
+    type: source
+    source:
+      variableFrom: datastore
+      variable:
+        key: 场景
+        scope: global
+prompts:
+  B-JQmIKJ_26YJbAML8A1x:
+    index: 0
+    data:
+      type: message
+      data:
+        id: B-JQmIKJ_26YJbAML8A1x
+        role: user
+        content: "{{ question }}"
+outputVariables:
+  - id: 11zVUyYJkELbZP5Dnbbp2
+    name: scene
+    required: true
+id: 20240613131455-k63UkN
+createdAt: 2024-06-13T05:14:55.408Z
+updatedAt: 2024-06-13T05:14:55.408Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 记忆-逻辑
+code: |
+  return {
+    scene: memory
+  }
