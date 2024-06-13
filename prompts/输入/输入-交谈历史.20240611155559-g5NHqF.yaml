@@ -3,9 +3,7 @@ parameters:
   - id: OOdB6pYeVXFe7fwX2gifE
     type: string
     key: question
-  - id: 9UTUgmTpuSCkAQjqJ8yoy
-    key: ""
-  - id: VYJpt4ZE6bz1rFBjcgWS9
+  - id: 0W0SiMVH45JEBIEgF4GEK
     key: ""
 prompts:
   - type: message
