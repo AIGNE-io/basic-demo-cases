@@ -1,0 +1,46 @@
+type: agent
+parameters: []
+prompts:
+  iIvdHeAzUtBmdSOXL5a9b:
+    index: 0
+    data:
+      type: message
+      data:
+        id: iIvdHeAzUtBmdSOXL5a9b
+        role: user
+        content: "{{ question }}"
+outputVariables:
+  - id: aFCnLGVeblL0W1oOT22zv
+    name: $children
+    initialValue:
+      agents:
+        - id: 20240613004825-lhv45W
+          name: 子agent1
+        - id: 20240613010827-L98Xto
+          name: 子agent2
+  - id: 6SII24T2I-KFf4adbyFjg
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat Layout
+  - id: GTz1lCHYN5Je-a49n6mMv
+    name: $appearance.output
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: q0ckknkxph4hfwas
+      componentName: Simple Output
+  - id: G7BFUp9EovfnXEJwhjHxk
+    name: $appearance.input
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+id: 20240611173837-cjk4ZI
+createdAt: 2024-06-11T09:38:37.143Z
+updatedAt: 2024-06-11T09:38:37.143Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 主agent
+model: gpt-4o
+executor: {}

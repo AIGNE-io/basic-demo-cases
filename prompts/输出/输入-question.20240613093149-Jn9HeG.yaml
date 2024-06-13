@@ -1,0 +1,51 @@
+type: prompt
+parameters:
+  - id: PuPo2LHkkYKxKqRuTsbwZ
+    key: question
+  - id: 98Sr3hJiWwoffhzZMVISq
+    key: input
+prompts:
+  - type: message
+    data:
+      id: aZgW83uJoxmNccat2cA6S
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: mXUmL2IGy6Ed5GN24Vo0P
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat Layout
+  - id: fIAPUYlXgkWBx-HuYoZXL
+    name: $appearance.input
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
+  - id: TaDiHrvbSe17s9Plq2nWz
+    name: $appearance.output
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: q0ckknkxph4hfwas
+      componentName: Simple Output
+  - id: AyWPxJVpc9FIFHO8ope3u
+    name: question
+    from:
+      type: input
+      id: PuPo2LHkkYKxKqRuTsbwZ
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+  - id: pHTshPk8Pz0y9SX-pu1ry
+    name: output
+    from:
+      type: input
+      id: 98Sr3hJiWwoffhzZMVISq
+id: 20240613093149-Jn9HeG
+createdAt: 2024-06-13T01:31:49.128Z
+updatedAt: 2024-06-13T01:31:49.128Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 输入-question

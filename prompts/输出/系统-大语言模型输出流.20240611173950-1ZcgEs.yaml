@@ -10,11 +10,17 @@ prompts:
       role: user
       content: "{{ question }}"
 outputVariables:
-  - id: mty7jCQV2W7W2IlkT0A2B
-    name: $text
+  - id: 9IQ00EDW_XCGaVY8E-UFk
+    name: $llmResponseStream
+  - id: uX-hUTwBbcPj5dz13bDex
+    name: ""
+    from:
+      type: input
+      id: CUMd-YEDcTIjePQy3fMau
 id: 20240611173950-1ZcgEs
 createdAt: 2024-06-11T09:39:50.997Z
 updatedAt: 2024-06-11T09:39:50.997Z
 createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 name: 系统-大语言模型输出流
+model: gpt-4o

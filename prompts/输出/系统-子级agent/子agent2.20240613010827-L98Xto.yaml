@@ -1,0 +1,35 @@
+type: image
+parameters:
+  - id: AoKOxqRrgmVPDkIgTVDe_
+    type: string
+    key: question
+prompts:
+  -N0_WmphZ6XHw13Yl-e6D:
+    index: 0
+    data:
+      type: message
+      data:
+        id: -N0_WmphZ6XHw13Yl-e6D
+        role: user
+        content: "{{ question }}"
+outputVariables:
+  - id: fLdIu5Ef8fk8VONx6XVIs
+    name: $images
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: txirtdgx8h2bmo7s
+      componentName: Images View
+  - id: rKGGRfozTe6SAbD8E3qZG
+    name: $profile
+    initialValue:
+      avatar: https://bbqascakenozyjuq5352c26kazfosaucap7g5coe5aq.did.abtnet.io/image-bin/uploads/9888c67a898678f25816461317596373.png
+      name: image agent
+    appearance: {}
+id: 20240613010827-L98Xto
+createdAt: 2024-06-12T17:08:27.638Z
+updatedAt: 2024-06-12T17:08:27.638Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: 子agent2
+model: dall-e-2
+prompt: "{{question}}"
