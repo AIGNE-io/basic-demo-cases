@@ -3,40 +3,33 @@ parameters:
   - id: yt79PRCf0CmgotXr6p3gt
     type: string
     key: question
-  - id: AMJNpx6KKu2yf2gPYHxwH
-    key: message
+  - id: Wfb0E4uD4mHHv6ZX093S8
+    key: knowledge
     type: source
     source:
       variableFrom: knowledge
       knowledge:
-        id: "455644974214545408"
+        id: "456322820754898944"
         from: knowledge
         parameters:
-          message: "{{message}}"
-  - id: HJZNkUTmhfdS5GSeOb3Fi
-    key: ""
-    type: source
-    source:
-      variableFrom: blockletAPI
-      api:
-        id: AI-Studio:/api/messages:get
-        parameters:
-          limit: "{{limit}}"
-          keyword: "{{keyword}}"
-  - id: FbTodBeBjkquSOP3OZJH0
-    key: limit
-    from: blockletAPIParameter
-  - id: 8YLzkZVUZ4kWTn9c0RdZl
-    key: keyword
-    from: blockletAPIParameter
+          message: "{{question}}"
 prompts:
   - type: message
     data:
       id: DjDhhmjrbTUWvQDLGLPwE
       role: user
       content: "{{ question }}"
+  - type: message
+    data:
+      id: 20240613130107-wLXEhu
+      role: system
+      content: |-
+        {{knowledge}} 是一个映射关系表
+        根据用户的问题,从{{knowledge}}里面找到对应的映射
+        只需要返回答案即可,你不需要有多余解释
+        如果没有找到对应的映射,只需要返回固定答案:  我不知道
 outputVariables:
-  - id: XugtrcohAuP3MOaYSKCyt
+  - id: 4sLJWGcvINFg23WWEd2n4
     name: $text
 id: 20240611160928-KdctJ3
 createdAt: 2024-06-11T08:09:28.856Z
@@ -44,3 +37,4 @@ updatedAt: 2024-06-11T08:09:28.856Z
 createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 name: 自定义输入-知识
+model: gpt-3.5-turbo
