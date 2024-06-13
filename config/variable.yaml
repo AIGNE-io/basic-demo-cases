@@ -1,8 +1,8 @@
 variables:
-  - key: 角色背景
+  - key: 场景
     scope: global
     type:
       type: string
-      id: jZXxPx-oKY33ebnvURzW5_GBbjBRDMrq
-    reset: false
-    defaultValue: 我是一名科学家
+      id: ShXoyMYy_ukuieCqzTsPK3sdxBFq2lpD
+    reset: true
+    defaultValue: ""
