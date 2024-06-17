@@ -6,13 +6,8 @@ parameters:
     source:
       variableFrom: datastore
       variable:
-        key: 场景
+        key: scene
         scope: global
-  - id: kgtvBrXr89j6RELDU87QW
-    key: ""
-    type: source
-    source:
-      variableFrom: tool
 prompts:
   - type: message
     data:

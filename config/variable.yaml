@@ -3,6 +3,6 @@ variables:
     scope: global
     type:
       type: string
-      id: ivmfO3TAohOAuVTh3RPwIwzta5sn0BnC
+      id: Qbp1ghXLRoUqy26x1Y4PXitzBw-5VtJm
     reset: true
-    defaultValue: ""
+    defaultValue: waterfull

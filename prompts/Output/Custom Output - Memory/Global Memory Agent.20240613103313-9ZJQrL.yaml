@@ -5,8 +5,10 @@ prompts:
     data:
       id: 20240613103936-iPEAW0
       role: system
-      content: |-
-        Generate a scene word, such as rock cave, cliff, wilderness, etc.
+      content: >-
+        Generate a scene word, such as rock cave, cliff, wilderness, etc.exclued
+        waterfall.
+
         No need to add extra description, just a noun is enough.
 outputVariables:
   - id: 0rkHYkaNld8ofogfdAz2n
