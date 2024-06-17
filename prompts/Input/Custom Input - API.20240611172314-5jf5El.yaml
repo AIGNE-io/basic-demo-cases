@@ -10,8 +10,6 @@ parameters:
         parameters:
           limit: "10"
           keyword: 星座
-  - id: XqAC3zqGeWUlrB1Mguzmp
-    key: ""
 prompts:
   - type: message
     data:
@@ -30,4 +28,4 @@ createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 name: Custom Input - API
 description: 自定义输入-接口
-model: openRouter/mistralai/mistral-7b-instruct
+model: gpt-4o

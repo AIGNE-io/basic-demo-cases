@@ -16,7 +16,7 @@ outputVariables:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
-model: gpt-3.5-turbo
+model: gpt-4o
 prompts:
   - type: message
     data:
