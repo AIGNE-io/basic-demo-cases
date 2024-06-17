@@ -13,8 +13,8 @@ prompts:
 outputVariables:
   - id: _2vJBghPIYKxmXS988u1W
     name: $text
-name: gemini pro
-model: gemini-pro
+name: Gemini pro
+model: openRouter/mistralai/mistral-7b-instruct
 parameters:
   - id: UE6eTJhZnditsJa0TGJXk
     key: question

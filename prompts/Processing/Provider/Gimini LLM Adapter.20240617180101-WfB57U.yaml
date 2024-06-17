@@ -1,0 +1,25 @@
+type: prompt
+parameters:
+  - id: T8m9ukazXT_kjqSHAFnbp
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: rCm2cLGB2wBjvcJliG043
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: Czo7yOLJv7B7dc8YHt61d
+    name: $text
+id: 20240617180101-WfB57U
+createdAt: 2024-06-17T10:01:01.088Z
+updatedAt: 2024-06-17T10:01:01.088Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: Gimini LLM Adapter
+executor:
+  agent:
+    blockletDid: z2qaKbjGedD228PNH6tWXqZjAYd6gDc2wf2Tf
+    projectId: "451677277520920576"
+    id: 20240531172420-hb5Y5k

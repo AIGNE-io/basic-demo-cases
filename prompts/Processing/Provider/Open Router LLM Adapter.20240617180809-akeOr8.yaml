@@ -1,0 +1,25 @@
+type: prompt
+parameters:
+  - id: ouHWLbTCFohCUDxRHjRE4
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: BUYi3xDvwNDWqPUNN1vLC
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: vG26qI68FC_M186BBdwZX
+    name: $text
+id: 20240617180809-akeOr8
+createdAt: 2024-06-17T10:08:09.790Z
+updatedAt: 2024-06-17T10:08:09.790Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: Open Router LLM Adapter
+executor:
+  agent:
+    blockletDid: z2qaDMJorcY7ECq6vf895NeDFZeYDbWqa9Znn
+    projectId: "451762430213619712"
+    id: 20240531230619-J5Xjlq
