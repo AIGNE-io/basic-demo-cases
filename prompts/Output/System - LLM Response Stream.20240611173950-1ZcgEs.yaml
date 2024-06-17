@@ -1,0 +1,26 @@
+type: prompt
+parameters:
+  - id: CUMd-YEDcTIjePQy3fMau
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: XiRCWUOl_USVx0Hkh6tV2
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: 9IQ00EDW_XCGaVY8E-UFk
+    name: $llmResponseStream
+  - id: uX-hUTwBbcPj5dz13bDex
+    name: ""
+    from:
+      type: input
+      id: CUMd-YEDcTIjePQy3fMau
+id: 20240611173950-1ZcgEs
+createdAt: 2024-06-11T09:39:50.997Z
+updatedAt: 2024-06-11T09:39:50.997Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: System - LLM Response Stream
+model: gpt-4o

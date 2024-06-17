@@ -1,0 +1,20 @@
+type: prompt
+parameters:
+  - id: _24TSqkiIGWdKap_LxTRV
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: dtk438IgbX0OFBiE3eBNd
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: iLwqa5Ec6gi1eM1plPYso
+    name: $text
+id: 20240617144153-PpGNwy
+createdAt: 2024-06-17T06:41:53.090Z
+updatedAt: 2024-06-17T06:41:53.090Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: test

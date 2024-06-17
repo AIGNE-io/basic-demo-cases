@@ -1,0 +1,29 @@
+type: prompt
+parameters: []
+prompts:
+  - type: message
+    data:
+      id: 20240613103936-iPEAW0
+      role: system
+      content: |-
+        Generate a scene word, such as rock cave, cliff, wilderness, etc.
+        No need to add extra description, just a noun is enough.
+outputVariables:
+  - id: 0rkHYkaNld8ofogfdAz2n
+    name: output
+    variable:
+      key: 场景
+      scope: global
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+    description: ""
+    required: true
+id: 20240613103313-9ZJQrL
+createdAt: 2024-06-13T02:33:13.723Z
+updatedAt: 2024-06-13T02:33:13.723Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: Memory agent
+description: ""

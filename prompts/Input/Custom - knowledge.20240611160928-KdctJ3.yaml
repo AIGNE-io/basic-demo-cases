@@ -1,0 +1,46 @@
+type: prompt
+parameters:
+  - id: yt79PRCf0CmgotXr6p3gt
+    type: string
+    key: question
+  - id: Wfb0E4uD4mHHv6ZX093S8
+    key: knowledge
+    type: source
+    source:
+      variableFrom: knowledge
+      knowledge:
+        id: "456322820754898944"
+        from: knowledge
+        parameters:
+          message: "{{question}}"
+prompts:
+  - type: message
+    data:
+      id: DjDhhmjrbTUWvQDLGLPwE
+      role: user
+      content: "{{ question }}"
+  - type: message
+    data:
+      id: 20240613130107-wLXEhu
+      role: system
+      content: >-
+        {{knowledge}} is a mapping table
+
+        According to the user's question, find the corresponding mapping from
+        it.
+
+
+        - Just return the answer, you don't need to explain it
+
+        -  If you don't find the corresponding mapping, just return a fixed
+        answer: I don't know
+outputVariables:
+  - id: 4sLJWGcvINFg23WWEd2n4
+    name: $text
+id: 20240611160928-KdctJ3
+createdAt: 2024-06-11T08:09:28.856Z
+updatedAt: 2024-06-11T08:09:28.856Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: Custom - knowledge
+model: gpt-3.5-turbo

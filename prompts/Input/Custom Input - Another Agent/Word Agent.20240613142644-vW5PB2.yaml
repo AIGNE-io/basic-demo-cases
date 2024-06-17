@@ -1,0 +1,18 @@
+type: prompt
+parameters: []
+prompts:
+  - type: message
+    data:
+      id: 0BX1lXVg3Hxs8M4p3CIC-
+      role: user
+      content: 请输出一个成语,不需要输出其他内容
+outputVariables:
+  - id: HaS5RSVMil5W8u8A9sKjT
+    name: word
+    required: true
+id: 20240613142644-vW5PB2
+createdAt: 2024-06-13T06:26:44.235Z
+updatedAt: 2024-06-13T06:26:44.235Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: Word Agent
