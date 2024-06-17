@@ -1,0 +1,23 @@
+type: prompt
+parameters: []
+prompts:
+  - type: message
+    data:
+      id: dEIFjbBVqo_eFCMdvi1qB
+      role: user
+      content: |-
+        Generate a scene word, such as rock cave, cliff, wilderness, etc.
+        No need to add extra description, just a noun is enough.
+outputVariables:
+  - id: vGua725UBwkHIRqM-_iH7
+    name: globalScene
+    required: true
+    variable:
+      key: scene
+      scope: global
+id: 20240617193313-MuQnVn
+createdAt: 2024-06-17T11:33:13.214Z
+updatedAt: 2024-06-17T11:33:13.214Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: Global Memory

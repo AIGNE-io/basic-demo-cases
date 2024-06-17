@@ -1,44 +1,47 @@
-type: prompt
+type: function
 parameters:
   - id: MnxPX7XtDAPi8MpQBP1u6
-    key: memory
+    key: scene
     type: source
     source:
       variableFrom: datastore
       variable:
         key: scene
         scope: global
+  - id: rMq69Fhwmz9I8SlXV0N6P
+    key: sessionScene
+    type: source
+    source:
+      variableFrom: datastore
+      variable:
+        key: sessionScene
+        scope: session
+  - id: aIXCu5Cl6SuVrKRFZuPIr
+    key: userScene
+    type: source
+    source:
+      variableFrom: datastore
+      variable:
+        key: userScene
+        scope: user
 prompts:
-  - type: message
+  XhpQvSm5xiMfssNCAvjW3:
+    index: 0
     data:
-      id: XhpQvSm5xiMfssNCAvjW3
-      role: system
-      content: Generate a description of {{memory}}, within 20 words
+      type: message
+      data:
+        id: XhpQvSm5xiMfssNCAvjW3
+        role: system
+        content: Generate a description of {{memory}}, within 20 words
 outputVariables:
-  - id: Y3bFSC3ROhVSZurBiOcPf
-    name: $text
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: a4oldpoxv7bikvpj
-      componentName: Markdown View
-  - id: 75tXxgTXAEGu6HkFnlIZC
-    name: $appearance.input
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: 1wwtemqcdio6nqf0
-      componentName: Auto Form
-  - id: wwg9xa5U-q44a4fTERb_U
-    name: $appearance.output
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: q0ckknkxph4hfwas
-      componentName: Simple Output
-  - id: gCsDDYObCJVGBzkbpha91
-    name: $appearance.page
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: ctnxha29uu8cx4xv
-      componentName: Simple Layout
+  - id: QNwaPeeA762zo5isifZPY
+    name: globalScene
+    required: false
+  - id: OR-RxL4J-uSFwSjJDm4BD
+    name: sessionScene
+    required: false
+  - id: qakoNx8aF5ps7efylxXNg
+    name: userScene
 id: 20240613104141-rD0DqI
 createdAt: 2024-06-13T02:41:41.478Z
 updatedAt: 2024-06-13T02:41:41.478Z
@@ -47,3 +50,9 @@ updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 name: Main Agent
 model: gpt-4o
 description: you should first execute Global Memory Agent to generate a memory
+code: |
+  return {
+    globalScene: scene,
+    sessionScene,
+    userScene
+  }

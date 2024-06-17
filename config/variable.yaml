@@ -6,3 +6,17 @@ variables:
       id: Qbp1ghXLRoUqy26x1Y4PXitzBw-5VtJm
     reset: true
     defaultValue: waterfull
+  - key: userScene
+    scope: user
+    type:
+      type: string
+      id: _J5vIdcjqceouiIRw0i4nBtLLeq_xnVx
+    reset: true
+    defaultValue: ""
+  - key: sessionScene
+    scope: session
+    type:
+      type: string
+      id: nAbQv4s6NcrSnHTlrcEajsTH2hyo-Riq
+    reset: true
+    defaultValue: ""
