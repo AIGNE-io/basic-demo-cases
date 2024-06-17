@@ -1,0 +1,21 @@
+type: prompt
+parameters:
+  - id: doSLAIh3yschlDx9JfTeh
+    type: string
+    key: question
+prompts:
+  - type: message
+    data:
+      id: 2AIVxVg1YKj9cb6mi7fbS
+      role: user
+      content: "{{ question }}"
+outputVariables:
+  - id: HMFmXZPdXHU3WLSKXWXLu
+    name: $text
+id: 20240617174308-3o9hi5
+createdAt: 2024-06-17T09:43:08.903Z
+updatedAt: 2024-06-17T09:43:08.903Z
+createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
+name: Unnamed Agent
+model: openRouter/mistralai/mixtral-8x7b-instruct
