@@ -6,7 +6,7 @@ parameters:
     source:
       variableFrom: datastore
       variable:
-        key: 场景
+        key: scene
         scope: global
 prompts:
   B-JQmIKJ_26YJbAML8A1x:
@@ -18,9 +18,8 @@ prompts:
         role: user
         content: "{{ question }}"
 outputVariables:
-  - id: 11zVUyYJkELbZP5Dnbbp2
+  - id: RvRXHl2jEl0XZtND5-al8
     name: scene
-    required: true
 id: 20240613131455-k63UkN
 createdAt: 2024-06-13T05:14:55.408Z
 updatedAt: 2024-06-13T05:14:55.408Z
