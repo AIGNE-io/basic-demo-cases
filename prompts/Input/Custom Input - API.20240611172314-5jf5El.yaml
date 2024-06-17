@@ -19,13 +19,11 @@ prompts:
 outputVariables:
   - id: 53E8LAwYs2eHVCAVGIK_R
     name: $text
-  - id: yRSH3Xc44IDbr6xG6WLP3
-    name: $llmResponseStream
 id: 20240611172314-5jf5El
 createdAt: 2024-06-11T09:23:14.078Z
 updatedAt: 2024-06-11T09:23:14.078Z
 createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 name: Custom Input - API
-description: 自定义输入-接口
+description: ""
 model: gpt-4o

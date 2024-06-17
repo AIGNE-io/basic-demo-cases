@@ -18,9 +18,3 @@ model: gemini-pro
 parameters:
   - id: UE6eTJhZnditsJa0TGJXk
     key: question
-  - id: fmAWsX58F3OLyXO7DVHOD
-    key: apiKey
-    type: source
-    source:
-      variableFrom: secret
-    label: hahahahah
