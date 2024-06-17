@@ -8,8 +8,11 @@ parameters:
       variable:
         key: 场景
         scope: global
-  - id: 3ooHKBDM4omfb2kBJQfse
+  - id: kgtvBrXr89j6RELDU87QW
     key: ""
+    type: source
+    source:
+      variableFrom: tool
 prompts:
   - type: message
     data:
@@ -46,4 +49,4 @@ createdAt: 2024-06-13T02:41:41.478Z
 updatedAt: 2024-06-13T02:41:41.478Z
 createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
-name: Input Agent
+name: Main Agent

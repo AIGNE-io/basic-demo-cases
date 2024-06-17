@@ -1,8 +1,8 @@
 variables:
-  - key: 场景
+  - key: scene
     scope: global
     type:
       type: string
-      id: ShXoyMYy_ukuieCqzTsPK3sdxBFq2lpD
+      id: ivmfO3TAohOAuVTh3RPwIwzta5sn0BnC
     reset: true
     defaultValue: ""

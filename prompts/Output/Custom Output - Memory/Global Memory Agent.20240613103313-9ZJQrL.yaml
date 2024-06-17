@@ -12,7 +12,7 @@ outputVariables:
   - id: 0rkHYkaNld8ofogfdAz2n
     name: output
     variable:
-      key: 场景
+      key: scene
       scope: global
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
@@ -25,5 +25,5 @@ createdAt: 2024-06-13T02:33:13.723Z
 updatedAt: 2024-06-13T02:33:13.723Z
 createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
-name: Memory agent
+name: Global Memory Agent
 description: ""
