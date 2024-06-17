@@ -4,8 +4,8 @@ prompts:
   - type: message
     data:
       id: 0BX1lXVg3Hxs8M4p3CIC-
-      role: user
-      content: 请输出一个成语,不需要输出其他内容
+      role: system
+      content: Please input an idiom, no need to input other content
 outputVariables:
   - id: HaS5RSVMil5W8u8A9sKjT
     name: word

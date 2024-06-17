@@ -1,20 +1,20 @@
 type: prompt
 parameters:
   - id: CyHnUEP14KftCapyS2CdJ
-    key: word
+    key: wordAgent
     type: source
     source:
       variableFrom: tool
       agent:
         projectId: "455344917049245696"
-        id: 20240611152956-FG8yIG
+        id: 20240613142644-vW5PB2
         from: assistant
 prompts:
   - type: message
     data:
       id: AYd2TNRjRUC4mLWPPUCx_
       role: user
-      content: 请解释下{{word}}的意思
+      content: Please explain the meaning of {{ wordAgent.word }}
 outputVariables:
   - id: 68yNGyF0ZbPWo4mvspnWW
     name: $text
