@@ -50,7 +50,7 @@ outputVariables:
   - id: DKuEfqTDRDxkTBC-hc5Yg
     name: $openingMessage
     initialValue:
-      message: 你好  我是人工智能 siri
+      message: hello, i am chatgpt. you can ask me any questions
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
       componentId: a4oldpoxv7bikvpj

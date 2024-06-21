@@ -18,3 +18,8 @@ model: openRouter/mistralai/mistral-7b-instruct
 parameters:
   - id: UE6eTJhZnditsJa0TGJXk
     key: question
+executor:
+  agent:
+    blockletDid: z2qaKbjGedD228PNH6tWXqZjAYd6gDc2wf2Tf
+    projectId: "451677277520920576"
+    id: 20240531172420-hb5Y5k
