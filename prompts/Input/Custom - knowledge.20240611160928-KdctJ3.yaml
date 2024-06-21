@@ -32,7 +32,7 @@ prompts:
 
         - Just return the answer, you don't need to explain it
 
-        -  If you don't find the corresponding mapping, just return a fixed
+        - If you don't find the corresponding mapping, just return a fixed
         answer: I don't know
 outputVariables:
   - id: 4sLJWGcvINFg23WWEd2n4
