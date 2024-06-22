@@ -45,4 +45,4 @@ updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 name: Generate a set of images
 model: dall-e-2
 prompt: "{{ question }}"
-n: 3
+n: 8

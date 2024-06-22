@@ -32,7 +32,7 @@ prompts:
 
         - Just return the answer, you don't need to explain it
 
-        -  If you don't find the corresponding mapping, just return a fixed
+        - If you don't find the corresponding mapping, just return a fixed
         answer: I don't know
 outputVariables:
   - id: 4sLJWGcvINFg23WWEd2n4
@@ -42,5 +42,5 @@ createdAt: 2024-06-11T08:09:28.856Z
 updatedAt: 2024-06-11T08:09:28.856Z
 createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
-name: Custom - knowledge
+name: Custom - Knowledge
 model: gpt-4o

@@ -2,8 +2,6 @@ type: prompt
 parameters:
   - id: PuPo2LHkkYKxKqRuTsbwZ
     key: question
-  - id: 98Sr3hJiWwoffhzZMVISq
-    key: input
 prompts:
   - type: message
     data:
@@ -35,14 +33,6 @@ outputVariables:
       id: PuPo2LHkkYKxKqRuTsbwZ
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: a4oldpoxv7bikvpj
-      componentName: Markdown View
-  - id: pHTshPk8Pz0y9SX-pu1ry
-    name: output
-    from:
-      type: input
-      id: 98Sr3hJiWwoffhzZMVISq
-    appearance:
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
   - id: PgQDqnzV8_zsgZPxWznNK
