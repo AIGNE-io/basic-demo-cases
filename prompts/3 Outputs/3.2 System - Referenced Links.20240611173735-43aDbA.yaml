@@ -1,54 +1,50 @@
 type: prompt
 parameters:
-  - id: mWuyLlz24CAwh8coNv3mm
+  - id: Ksb33QXQplJW8w0iDCviF
     type: string
     key: question
 prompts:
   - type: message
     data:
-      id: yAQak5x9JizrjkKUdZa7i
+      id: 3lIa61eiH730rxWj0h0co
       role: user
       content: "{{ question }}"
 outputVariables:
-  - id: E_7ZlZoOVy63RagbrUWz-
+  - id: 5OgsSslvBa79JUKNVeDQl
     name: $text
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
-  - id: mxUdfYVQJfnZEct2K0cWn
-    name: $openingMessage
-    initialValue:
-      message: Hello, I'm an artificial intelligence. What would you like to ask me?
+  - id: nlubA8f_Asz9q4FAbOP4w
+    name: $reference.links
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: a4oldpoxv7bikvpj
-      componentName: Markdown View
-  - id: aIelJJIUu6cyu4GuJIXra
+      componentId: baqmaoccdntqwayc
+      componentName: Referenced Links View
+    description: Find some related papers
+  - id: QWxFZxY-dPvzgeoZu884C
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: ctnxha29uu8cx4xv
+      componentName: Simple Layout
+  - id: VL0nCblPcLaVo52ADHy5d
     name: $appearance.input
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
       componentId: 1wwtemqcdio6nqf0
       componentName: Auto Form
-  - id: QIf09-MigZH9KGQ9mmC5v
-    name: $appearance.page
-    appearance:
-      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
-      componentId: wvqnnr1wl624vho5
-      componentName: Simple Chat Layout
-  - id: LRw7yhaZUu35VSP9rSZHc
+  - id: DpdOls0vUPV8hkk0BU_OG
     name: $appearance.output
     appearance:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
       componentId: q0ckknkxph4hfwas
       componentName: Simple Output
-  - id: YAwAPVkm6vj2vtAGtgrZ-
-    name: ""
-id: 20240611173606-2xSzsL
-createdAt: 2024-06-11T09:36:06.540Z
-updatedAt: 2024-06-11T09:36:06.540Z
+id: 20240611173735-43aDbA
+createdAt: 2024-06-11T09:37:35.757Z
+updatedAt: 2024-06-11T09:37:35.757Z
 createdBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
 updatedBy: z1XXwZGkdCiw5KmtXXawBB1LfkzQcdmszz9
-name: Appearance - Opening Message
+name: 3.2 System - Referenced Links
 model: gpt-4o
-description: You can click clear current session history to see the effect
